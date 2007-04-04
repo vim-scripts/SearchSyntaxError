@@ -1,0 +1,16 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1851
+
+" This scritp searches for the next syntax error detected by the vim highlighting
+" mechanism. To search for the next syntax error, issue command
+"       :ERR
+" That all, folks.
+"
+" You can map this :ERR to your favorite key or key combination as follows:
+"
+"    noremap <silent><C-K><C-E>  :ERR<cr>
+"
+" For feedback, bugs and wishes: write to: iler.ml at gmail.com
+"
+" As a bonus, :ERRP searches backwards for the syntax error.
+" And <Ctrl-K><Ctrl-E> is mapped to :ERR, unless somebody redefined it(
+" (your vimrc or some other plugin).
